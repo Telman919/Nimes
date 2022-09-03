@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact</title>
+        <link rel="stylesheet" href="./css/Style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="div-box">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a class="link" href="#">Woman</a></li>
+                        <li><a class="link" href="#">Man</a></li>
+                        <li><a class="link" href="#">New</a></li>
+                    </ul>
+                </nav>
+                <img src="./img/logo.png" alt="Nimes" />
+                <div class="nav-list">
+                    <a class="img-search" href="#">
+                        <img src="./img/search.svg" alt="Search" />
+                    </a>
+                    <a class="img-search" href="#">
+                        <img src="./img/cart.svg" alt="Cart"
+                    /></a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="contact_wrapper">
+                <form class="form" action="#" method="post">
+                    <fieldset class="form__border">
+                        <legend>Contact us</legend>
+                        <div class="form__group">
+                            <label class="form__label" for="Name">Name</label>
+                            <input
+                                placeholder="Enter your name"
+                                class="form__input"
+                                type="text"
+                            />
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="E-mail"
+                                >E-mail</label
+                            >
+                            <input
+                                placeholder="Enter your e-mail"
+                                class="form__input"
+                                type="text"
+                            />
+                        </div>
+                        <div class="form__group">
+                            <label class="form__label" for="Phone">Phone</label>
+                            <input
+                                placeholder="Enter your phone"
+                                class="form__input"
+                                type="text"
+                            />
+                        </div>
+
+                        <label class="form__label" for="text"
+                            >Your message</label
+                        >
+                        <input class="form__message" type="text" />
+                        <button class="form__button">Send</button>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>

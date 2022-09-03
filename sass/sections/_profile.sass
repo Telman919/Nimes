@@ -1,0 +1,46 @@
+.profile
+    display: grid
+    grid-template-columns: repeat(2,1fr)
+    grid-template-rows: repeat(2,1fr)
+    column-gap: 130px
+    row-gap: 97px
+    &__img
+        justify-self: flex-end
+.order-history
+    grid-column: 1/2
+    justify-self: flex-end
+    width: 568px
+    background: $light-gray
+    &__text
+        display: grid
+        grid-template-columns: repeat(4,1fr)
+.user-info
+    width: 568px
+    font-size: 18px
+    grid-column: 2/3
+    grid-row: 1/3
+    background: $light-gray
+    &__group
+        display: flex
+        justify-content: space-between
+        margin-bottom: 29px
+    &__label
+        margin-right: 55px
+    &__input
+        width: 75%
+        padding: 18px 29px
+    &__button
+        color: white
+        background-color: black
+        padding: 10px 20px
+        border: none
+        padding: 27px 80px
+        margin-top: 60px
+        margin-left: 164px
+    &__label
+        margin-right: 55px
+    &__message
+        width: 100%
+        padding: 18px 29px
+        margin-top: 15px
+        height: 200px

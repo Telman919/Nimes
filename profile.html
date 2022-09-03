@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>profile</title>
+        <link rel="stylesheet" href="./css/Style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <header>
+            <div class="div-box">
+                <nav>
+                    <ul class="nav-list">
+                        <li><a class="link" href="#">Woman</a></li>
+                        <li><a class="link" href="#">Man</a></li>
+                        <li><a class="link" href="#">New</a></li>
+                    </ul>
+                </nav>
+                <img src="./img/logo.png" alt="Nimes" />
+                <div class="nav-list">
+                    <a class="img-search" href="#">
+                        <img src="./img/search.svg" alt="Search" />
+                    </a>
+                    <a class="img-search" href="#">
+                        <img src="./img/cart.svg" alt="Cart"
+                    /></a>
+                </div>
+            </div>
+            </header>
+            <main>
+                <section class="profile">
+                    <div class="profile__img">
+                        <img
+                            src="./img/unnamed (1) 1.jpg"
+                            alt="CapitanVorobei"
+                        />
+                    </div>
+                    <div class="order-history">
+                        <h2>History</h2>
+                        <div class="order-history__text">
+                            <span>28.02.1990</span>
+                            <span>Jacket</span>
+                            <span>1</span>
+                            <span>$60</span>
+                        </div>
+                        <div class="order-history__text">
+                            <span>15.07.2002</span>
+                            <span> Jacket Black XXL</span>
+                            <span>1</span>
+                            <span>$260</span>
+                        </div>
+                        <div class="order-history__text">
+                            <span>07.09.2003</span>
+                            <span>Overalls</span>
+                            <span>5</span>
+                            <span>$6000</span>
+                        </div>
+                        <div class="order-history__text">
+                            <span>15.09.2003</span>
+                            <span>Model White Extra</span>
+                            <span>1</span>
+                            <span>$58</span>
+                        </div>
+                        <div class="order-history__text">
+                            <span>25.05.2005</span>
+                            <span>Jacket </span>
+                            <span>1</span>
+                            <span>$8</span>
+                        </div>
+                        <div class="order-history__text">
+                            <span>28.02.2020</span>
+                            <span>Jacket</span>
+                            <span>3</span>
+                            <span>$60</span>
+                        </div>
+                    </div>
+                        <form class="user-info" action="#" method="post">
+                            <div class="user-info__group">
+                                <label class="user-info__label" for="Name">Name</label>
+                                <input
+                                    class="user-info__input"
+                                    placeholder="Enter your name"
+                                    type="text"
+                                    required
+                                />
+                            </div>
+                            <div class="user-info__group">
+                                <label class="user-info__label" for="surname"
+                                    >surname</label
+                                >
+                                <input
+                                    class="user-info__input"
+                                    placeholder="Enter your surname"
+                                    type="text"
+                                    required
+                                />
+                            </div>
+                            <div class="user-info__group">
+                                <label class="user-info__label" for="birthday"
+                                    >Birthday</label
+                                >
+                                <input
+                                    class="user-info__input"
+                                    placeholder="Enter your birthday"
+                                    type="text"
+                                />
+                            </div>
+                            <div class="user-info__group">
+                                <p><b>Gender</b></p>
+                                <p>
+                                    <input
+                                        name="Gender"
+                                        type="radio"
+                                        value="Male"
+                                    />
+                                    Male
+                                </p>
+                                <p>
+                                    <input
+                                        name="Gender"
+                                        type="radio"
+                                        value="Female"
+                                    />
+                                    Female
+                                </p>
+                            </div>
+                            <div class="user-info__group">
+                                <label class="user-info__label" for="country"
+                                    >Country</label
+                                >
+                                <select
+                                    class="user-info__input"
+                                    placeholder="Select your country"
+                                    type="text"
+                                >
+                                    <option>russia</option>
+                                </select>
+                            </div>
+                            <div class="user-info__group">
+                                <label class="user-info__label" for="City"
+                                    >City</label
+                                >
+                                <input
+                                    class="user-info__input"
+                                    placeholder="Enter your City"
+                                    type="text"
+                                />
+                            </div>
+                            <div class="user-info__group">
+                                <label class="user-info__label" for="E-mail"
+                                    >E-mail</label
+                                >
+                                <input
+                                    class="user-info__input"
+                                    placeholder="Enter your e-mail"
+                                    type="text"
+                                />
+                            </div>
+                            <div class="user-info__group">
+                                <label class="user-info__label" for="Phone"
+                                    >Phone</label
+                                >
+                                <input
+                                    class="user-info__input"
+                                    placeholder="Enter your phone"
+                                    type="text"
+                                />
+                            </div>
+                            <label class="user-info__label" for="text"
+                                >About yourself</label
+                            >
+                            <input class="user-info__message" type="text" />
+                            <button class="user-info__button">Save</button>
+                        </form>
+                    </div>
+                </section>
+            </main>
+    </body>
+</html>
